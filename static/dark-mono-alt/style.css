@@ -1825,6 +1825,11 @@ li.graph .center_poll {
   min-width: 120px;
 }
 
+.forum_post pre, .forum_post pre code, .torrentdetails pre {
+  white-space: pre-wrap!important;
+  word-break: break-all!important;
+}
+
 .forum_post .body {
   padding: 15px;
   line-height: 1.4em;
